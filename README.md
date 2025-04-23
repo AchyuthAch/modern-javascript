@@ -30,3 +30,17 @@ Null is a value that represents the intentional absence of any object value <br>
 Undefined is a value that represents the intentional & unintentional absence of any object value.
 
 **Booleans**
+True or False would be the elements which comes as Booleans<br>
+.includes("checkif") ==> Checks whether an elements are present at the Array<br>
+//Comparison Operators<br>
+== , !=, < , >, <=, <= <br>
+These operators can be used to compare numbers, strings and often called as loose operators as it doesnt checks the type<br>
+Strict operators comes as ===, !==, <==, >== and checks the type<br>
+
+*Type Conversions*<br>
+For any string to number conversions we use Number() to convert<br>
+To check the specific type of any data types we use typeof(variable)<br>
+*Boolean Conversions*<br>
+Any Boolean(0) will be false<br>
+Any Boolean('') will be false<br>
+Any Boolean("string") will be true<br>
