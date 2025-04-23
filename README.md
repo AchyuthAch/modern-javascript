@@ -1,5 +1,9 @@
 # modern-javascript
 
-**Modern Javascript**
+**Control Flows**<br>
+In JavaScript, control flow refers to the order in which the code is executed<br>
 
-Each topic which I feel important in the learning process has it's own branch in the repository
+Here are some loops which we use frequently<br>
+For Loops<br>
+While Loops<br>
+Do While Loops<br>
