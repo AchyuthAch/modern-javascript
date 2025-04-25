@@ -12,4 +12,7 @@ if else statements<br>
 Logical Operators Or **||** and **&&**<br>
 Logical OR is used for atleast one gets success<br>
 Logical AND is used for both gets success<br>
-Logical NOT **!**
+Logical NOT **!**<br>
+Break & Continue <br>
+Switch Case<br>
+Variable & block/global scope<br>
