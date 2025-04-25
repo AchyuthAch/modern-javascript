@@ -82,12 +82,70 @@ if(pswd.length>10 && pswd.includes('@')){
 //Logical NOT (!)
 //Example 1:
 
-console.log(!true)
-console.log(!false)
-
+// console.log(!true)
+// console.log(!false)
 let user = false;
 //Until true if block will never executes
 if(!user){
     console.log("Logged in")
 }
+
+//Break & Continue
+//Example:1
+
+const scores = [20, 34, 56, 0, 100, 30, 44]
+
+for(z=0; z<scores.length; z++) {
+    if(scores[z] === 0){
+        continue;
+    }
+    console.log("Your scores are", scores[z]);
+
+    if(scores[z]===100){
+        console.log("You have reached your top")
+        break;
+    } 
+}
+
+//Switch Case
+//Example1:
+
+const grade = "D";
+
+switch(grade){
+    case 'A':
+        console.log("You scored A");
+        break;   
+    case 'B':
+        console.log("You scored B");
+        break;
+    case 'C':
+        console.log("You scored C");
+        break;
+    case 'D':
+        console.log("You scored D");
+        break;
+    case 'E':
+        console.log("You scored E");
+        break;
+    default:
+        console.log("Invalid Grade");
+}
+
+//Variables & Block Scope
+//Example1:
+
+//Defined globally
+let ageFactor = 30;
+
+if(true){
+    //Defined locally
+    let ageFactor = 40;
+    let nameHere = "Achyuth"
+    var test = "Hello"
+    console.log("Inside the code block", ageFactor, nameHere)
+}
+
+console.log("Outside the code block", ageFactor, test)
+
 
