@@ -1,18 +1,14 @@
 # modern-javascript
 
-**Control Flows**<br>
-In JavaScript, control flow refers to the order in which the code is executed<br>
+**Functions & Methods**<br>
 
-Here are some loops along with examples updated at control_flow.js file which are used frequently on our daily basis<br>
-For Loops<br>
-While Loops<br>
-Do While Loops<br>
-if statements<br>
-if else statements<br>
-Logical Operators Or **||** and **&&**<br>
-Logical OR is used for atleast one gets success<br>
-Logical AND is used for both gets success<br>
-Logical NOT **!**<br>
-Break & Continue <br>
-Switch Case<br>
-Variable & block/global scope<br>
+Javascript Functions are a piece of code which we used to execute when required based on passage of the parameters to it.<br>
+
+Below are explained/updated at func_methods.js file<br>
+How functions Declaration<br>
+How Functions are called<br>
+Difference between regular function & Arrow Functions<br>
+What are arguments & parameters<br>
+How to return a value from Functions<br>
+
+
