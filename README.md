@@ -10,5 +10,4 @@ How Functions are called<br>
 Difference between regular function & Arrow Functions<br>
 What are arguments & parameters<br>
 How to return a value from Functions<br>
-
-
+Usage of Callbacks & foreach<br>
