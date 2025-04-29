@@ -72,10 +72,11 @@ let checkTime = greetings()
 console.log(checkTime)
 
 //callbacks & foreach
+//forEach iterates each elements at a below array
+let people = ["Achyuth", "Mario", "Ninja", "Achuu"]
 
-
-
-
-
-
-
+const useThis = (person, index) =>{
+    console.log(`${person} is at ${index}th place`)
+}
+//calling a function using method called .forEach(callback function)
+people.forEach(useThis)
