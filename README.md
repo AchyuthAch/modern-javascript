@@ -1,13 +1,14 @@
 # modern-javascript
 
-**Functions & Methods**<br>
+**Objects**<br>
+>Objects are a fundamental data type used to store collections of key-value pairs<br>
+>Identification of objects can be done at code like { } which shows one object with different key pairs inside it.<br>
 
-Javascript Functions are a piece of code which we used to execute when required based on passage of the parameters to it.<br>
+Example of JS object:
+>We can even access the properties of an object like this:
 
-Below are explained/updated at func_methods.js file<br>
-How functions Declaration<br>
-How Functions are called<br>
-Difference between regular function & Arrow Functions<br>
-What are arguments & parameters<br>
-How to return a value from Functions<br>
-Usage of Callbacks & foreach<br>
+*Methods*:
+Adding a method(Function) to object 
+In JS we use this. to call a method(Function) and below is the use case for an example:
+
+
