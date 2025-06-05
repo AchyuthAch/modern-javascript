@@ -20,3 +20,6 @@ document.getElementsByTagName("p");       // Get elements by tag<br>
 document.querySelector("p");              // First match using CSS selector<br>
 document.querySelectorAll(".para");       // All matches<br>
 
+**Replacement of texts & HTMLS using DOM**<br>
+Using .innerText & .innerHTML methods we can replace/append the data inside the html pages<br>
+Below line of code is the example use case: https://github.com/AchyuthAch/modern-javascript/blob/5778374e86335497c1c73467e4ef4b39b50731ef/dom.js#L21
