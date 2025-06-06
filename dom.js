@@ -35,3 +35,11 @@ const peoples = ["Achyuth", "Mario", "PK"]
 peoples.forEach(people=>{
     content.innerHTML += `<p>${people}<p/>`
 })
+
+
+//Get & Set Attributes from HTML
+
+const get_attr = document.querySelector("a")
+console.log(get_attr.getAttribute("href"))
+get_attr.setAttribute("href", "http://achyuth.com")
+get_attr.innerText = "Achyuth's website"
